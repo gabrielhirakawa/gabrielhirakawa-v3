@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 370" width="420" height="370">
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="141.007" y1="272" x2="278.993" y2="33">
+			<stop offset="0" stop-color="#16a596"  />
+			<stop offset="1" stop-color="#7043ef"  />
+		</linearGradient>
+		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="134.481" y1="86.705" x2="152.039" y2="56.295">
+			<stop offset="0" stop-color="#16a596"  />
+			<stop offset="1" stop-color="#7043ef"  />
+		</linearGradient>
+		<linearGradient id="grd3" gradientUnits="userSpaceOnUse"  x1="267" y1="89.787" x2="286.961" y2="55.213">
+			<stop offset="0" stop-color="#16a596"  />
+			<stop offset="1" stop-color="#7043ef"  />
+		</linearGradient>
+		<linearGradient id="grd4" gradientUnits="userSpaceOnUse"  x1="169.633" y1="148.653" x2="179.367" y2="131.794">
+			<stop offset="0" stop-color="#16a596"  />
+			<stop offset="1" stop-color="#7043ef"  />
+		</linearGradient>
+		<linearGradient id="grd5" gradientUnits="userSpaceOnUse"  x1="249.545" y1="147" x2="257.455" y2="133.3">
+			<stop offset="0" stop-color="#16a596"  />
+			<stop offset="1" stop-color="#7043ef"  />
+		</linearGradient>
+		<linearGradient id="grd6" gradientUnits="userSpaceOnUse"  x1="0" y1="0" x2="0" y2="0">
+			<stop offset="0" stop-color="#16a596"  />
+			<stop offset="1" stop-color="#7043ef"  />
+		</linearGradient>
+		<linearGradient id="grd7" gradientUnits="userSpaceOnUse"  x1="147.583" y1="244.052" x2="217.417" y2="123.096">
+			<stop offset="0" stop-color="#16a596"  />
+			<stop offset="1" stop-color="#7043ef"  />
+		</linearGradient>
+		<linearGradient id="grd8" gradientUnits="userSpaceOnUse"  x1="133.15" y1="339" x2="160.85" y2="291.022">
+			<stop offset="0" stop-color="#16a596"  />
+			<stop offset="1" stop-color="#7043ef"  />
+		</linearGradient>
+		<linearGradient id="grd9" gradientUnits="userSpaceOnUse"  x1="177" y1="336.285" x2="201" y2="294.715">
+			<stop offset="0" stop-color="#16a596"  />
+			<stop offset="1" stop-color="#7043ef"  />
+		</linearGradient>
+		<linearGradient id="grd10" gradientUnits="userSpaceOnUse"  x1="213.54" y1="339" x2="241.24" y2="291.022">
+			<stop offset="0" stop-color="#16a596"  />
+			<stop offset="1" stop-color="#7043ef"  />
+		</linearGradient>
+		<linearGradient id="grd11" gradientUnits="userSpaceOnUse"  x1="224.694" y1="313" x2="234.508" y2="296">
+			<stop offset="0" stop-color="#16a596"  />
+			<stop offset="1" stop-color="#7043ef"  />
+		</linearGradient>
+		<linearGradient id="grd12" gradientUnits="userSpaceOnUse"  x1="264.149" y1="339" x2="291.849" y2="291.022">
+			<stop offset="0" stop-color="#16a596"  />
+			<stop offset="1" stop-color="#7043ef"  />
+		</linearGradient>
+		<linearGradient id="grd13" gradientUnits="userSpaceOnUse"  x1="276.015" y1="321" x2="286.985" y2="302">
+			<stop offset="0" stop-color="#16a596"  />
+			<stop offset="1" stop-color="#7043ef"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: url(#grd1);stroke-width: 3 } 
+		.shp1 { fill: none;stroke: url(#grd2);stroke-width: 3 } 
+		.shp2 { fill: none;stroke: url(#grd3);stroke-width: 3 } 
+		.shp3 { fill: none;stroke: url(#grd4);stroke-width: 3 } 
+		.shp4 { fill: none;stroke: url(#grd5);stroke-width: 3 } 
+		.shp5 { fill: none;stroke: url(#grd6);stroke-width: 3 } 
+		.shp6 { fill: none;stroke: url(#grd7);stroke-width: 3 } 
+		.shp7 { fill: none;stroke: url(#grd8);stroke-width: 3 } 
+		.shp8 { fill: none;stroke: url(#grd9);stroke-width: 3 } 
+		.shp9 { fill: none;stroke: url(#grd10);stroke-width: 3 } 
+		.shp10 { fill: none;stroke: url(#grd11);stroke-width: 3 } 
+		.shp11 { fill: none;stroke: url(#grd12);stroke-width: 3 } 
+		.shp12 { fill: none;stroke: url(#grd13);stroke-width: 3 } 
+	</style>
+	<g id="Pasta 1">
+		<path id="Forma 1" class="shp0" d="M134 120C134 120 107 45.45 145 34L180 70L239 70L275 33C275 33 311 44.45 289 116L288 122L300 179C300 179 299.33 195.63 292 202L277 196L288 210L280 220L268 207L271 232C271 232 232.33 268.96 211 272C211 272 144.67 247.96 120 188L134 120Z" />
+		<path id="Forma 2" class="shp1" d="M141 48C141 48 126.33 75.63 141 95L145 82C145 82 152.67 86.3 152 86C151.33 85.7 141 48 141 48Z" />
+		<path id="Forma 2 copy" class="shp2" d="M279.55 49C279.55 49 296.22 76.63 279.55 96L275 83C275 83 266.29 87.3 267.04 87C267.8 86.7 279.55 49 279.55 49Z" />
+		<path id="Forma 3" class="shp3" d="M159 134C159 134 170.67 152.3 190 148C190 148 184 124.63 159 134Z" />
+		<path id="Forma 4" class="shp4" d="M240 147C240 147 259 146.96 267 135C267 135 246 126.63 240 147Z" />
+		<path id="Forma 5" class="shp5" d="" />
+		<path id="Forma 6" class="shp6" d="M220 210C220.33 210.04 206 194 206 194L198 150C198 150 190.33 114.63 153 125C153 125 152 137.63 161 146C161 146 165.33 167.3 165 167C164.67 166.7 147.33 180.96 144 193L158 204C158 204 167 192.63 172 195C172 195 161.67 205.3 164 221L181 233L184 215C184 215 189.67 236.3 204 242C203.67 242.37 207 244 207 244C207 244 220.04 243.3 220.04 244C220.04 244.7 221 238 221 238C221 238 201.67 233.63 199 226C199 226 198.67 210.63 199 211C199.33 211.37 221 211 221 211" />
+	</g>
+	<g id="Pasta 40">
+		<path id="Forma 7" class="shp7" d="M126 292L117 339L132 339L135 321L135 320L157 320L154 339L168 339L177 292L161 292L159 311L137 311L141 291.02L126 292Z" />
+		<path id="Forma 8" class="shp8" d="M186 292L177 339L191 339L201 292L186 292Z" />
+		<path id="Forma 14" class="shp9" d="M213 291.02L204 339L213 339L217 319C217 319 238.5 316.99 238 324L238 339L247 339C247 339 249.25 314.99 242 316C242 316 263.63 301.78 239 291.02L213 291.02Z" />
+		<path id="Forma 14" class="shp10" d="M220 296C220.38 296.44 220 297 220 297L218 313L218 313L232 313L233 313C233 313 242.02 308.6 241.14 303.73C241.14 303.73 240.06 297.12 234 297L221 297" />
+		<path id="Forma 10" class="shp11" d="M253 339L283 291.02L291 291.02L303 339L294 339L291 327L269 327C269 327 262.25 339 262 339C261.75 339 252.75 339 253 339Z" />
+		<path id="Forma 11" class="shp12" d="M273 321L290 321L285 302L273 321Z" />
+	</g>
+</svg>

@@ -13,7 +13,7 @@ export const Container = styled.div`
             margin-top: 30px;
             display: flex;
             li{
-                margin: 0 15px;
+                margin: 0 10px;
                 font-size: 16px;
                 font-weight: 500px;
                 text-transform: uppercase;
@@ -35,7 +35,7 @@ export const Content = styled.div`
     
     h1{
         opacity: 0;
-        font-size: 45px;
+        font-size: 30px;
         animation: fadeInText 0s 1.1s both;
         font-weight: lighter; 
         strong{
