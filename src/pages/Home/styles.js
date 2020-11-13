@@ -2,12 +2,24 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     background-color: #262527;
-    height: 100vh;
+    /* height: 100vh; */ 
     color: #fff;
     display: flex;
     align-items: center;
     flex-direction: column;
+    
+ 
+
+`;
+
+export const DivHome = styled.div`
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
+    min-height: 100vh;
+
     nav{
         ul{
             margin-top: 30px;
@@ -20,14 +32,6 @@ export const Container = styled.div`
             }
         }
     }
-
-`;
-
-export const Content = styled.div`
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
 
     div:after{
         
@@ -80,6 +84,10 @@ export const Content = styled.div`
             opacity: 1
         }
     }
+`;
+
+export const DivLogo = styled.div`
+
 `;
 
 export const RevealBlockAnimation = styled.div`
