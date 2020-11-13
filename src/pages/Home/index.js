@@ -3,7 +3,7 @@ import React from 'react';
 import ReactVivus from 'react-vivus';
 import "./styles.css";
 import { Container, Content, RevealBlockAnimation } from './styles';
-import svg from '../../assets/logo-azul.svg'
+import svg from '../../assets/logo-hira.svg'
 
 function Home() {
 
