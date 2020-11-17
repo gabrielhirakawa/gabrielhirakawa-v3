@@ -8,6 +8,10 @@ export const Container = styled.div`
   width: 100%;
   min-height: 100vh;
   padding: 20px;
+
+  @media(max-width: 414px){
+    padding-top: 80px;
+  }
 `;
 
 export const DivPortfolioBox = styled.div`
@@ -15,10 +19,15 @@ export const DivPortfolioBox = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-height: 400px;
+  min-height: 350px;
   padding: 10px;
   background: linear-gradient(270deg, #16a596 0%, #7043ef 100%);
   border-radius: 8px;
+
+  @media(max-width: 414px){
+    /* margin-top: 50px; */
+    width: 80%;
+  }
 `;
 
 export const DivPortfolioCards = styled(motion.ul)`
@@ -38,4 +47,9 @@ export const DivPortfolioCard = styled(motion.li)`
   margin: 10px;
   background: #fff;
   border-radius: 8px;
+
+  @media(max-width: 414px){
+    height: 200px;
+    width: 200px;
+  }
 `;

@@ -16,7 +16,7 @@ function Main() {
             animTimingFunction: 'EASE',
             type: 'oneByOne',
           }}
-          style={{ height: '400px', width: '400px', color: '#16A596' }}
+          style={{ height: '350px', width: '350px', color: '#16A596' }}
         />
 
         <RevealBlockAnimation>

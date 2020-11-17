@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-
+  width: 100%;
   div:after {
   }
 
