@@ -24,6 +24,9 @@ const GlobalStyle = createGlobalStyle`
     ol, ul {
         list-style: none;
     }
+    a{
+        text-decoration: none;
+    }
     button{
         cursor: pointer;
         border: none;
