@@ -42,14 +42,32 @@ export const DivPortfolioCard = styled(motion.li)`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  color: #3c3c3c;
   height: 240px;
   width: 240px;
   margin: 10px;
   background: #fff;
   border-radius: 8px;
+  cursor: pointer;
+
+  span{
+    margin: 10px;
+  }
 
   @media(max-width: 414px){
     height: 200px;
     width: 200px;
+  }
+
+  img{
+    height: 120px;
+  }
+
+  &:hover{
+    border: 4px solid #c3c3c3;
+    /* -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.1); */
   }
 `;

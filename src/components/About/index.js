@@ -20,9 +20,9 @@ function About() {
       <Column>
         <img src={foto} alt="foto" />
         <SvgList>
-          <li><FaGithub size={30} color=" #16A596" /></li>
-          <li><FaLinkedin size={30} color=" #16A596" /></li>
-          <li><FaYoutube size={30} color=" #16A596" /></li>
+          <li><a href="https://github.com/gabrielhirakawa" target="__blank"  ><FaGithub size={30} color=" #16A596" /></a></li>
+          <li><a href="https://br.linkedin.com/in/gabrielhirakawa" target="__blank"><FaLinkedin size={30} color=" #16A596" /></a></li>
+          <li><a href="https://youtube.com/gabrielhirakawa" target="__blank"><FaYoutube size={30} color=" #16A596" /></a></li>
         </SvgList>
       </Column>
     </Content>

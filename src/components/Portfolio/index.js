@@ -1,4 +1,6 @@
 import React from 'react';
+// import { AnimateSharedLayout, AnimatePresence } from 'framer-motion';
+// import { openSpring, closeSpring } from "./animations";
 
 import {
   Container,
@@ -7,7 +9,13 @@ import {
   DivPortfolioCards,
 } from './styles';
 
+import imgFavoDeMelArt from '../../assets/favo.png'
+import imgLOL from '../../assets/lol.png'
+import imgGit from '../../assets/git.png'
+
 function Portfolio() {
+
+
   const container = {
     hidden: { opacity: 1, scale: 0 },
     visible: {
@@ -38,11 +46,27 @@ function Portfolio() {
           initial="hidden"
           animate="visible"
         >
-          <DivPortfolioCard variants={item}></DivPortfolioCard>
-          <DivPortfolioCard variants={item}></DivPortfolioCard>
-          <DivPortfolioCard variants={item}></DivPortfolioCard>
+
+            <DivPortfolioCard variants={item} >
+              <img src={imgFavoDeMelArt} alt="favo-de-mel" />
+              <span>Favo de Mel Artes</span>
+            </DivPortfolioCard>
+
+
+          <DivPortfolioCard variants={item}>
+            <img src={imgLOL} alt="lol-api" />
+            <span>LOL API</span>
+          </DivPortfolioCard>
+          <DivPortfolioCard variants={item}>
+            <img src={imgGit} alt="git-repositories" />
+            <span>GIT repositories</span>
+          </DivPortfolioCard>
         </DivPortfolioCards>
+
+
       </DivPortfolioBox>
+
+
     </Container>
   );
 }
