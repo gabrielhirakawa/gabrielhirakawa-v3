@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import bg from '../../assets/bg.jpg'
 
 export const Container = styled.div`
   display: flex;
@@ -7,6 +8,9 @@ export const Container = styled.div`
   justify-content: space-between;
   min-height: 100vh;
   width: 100%;
+
+  background: linear-gradient(180deg, rgba(38, 37, 39, 0.92) 0%, #262527 100%), url(${bg}) top no-repeat;
+  background-size: contain, cover;
   div:after {
   }
 
@@ -25,6 +29,12 @@ export const Container = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: fadeInText 0s 1.1s both;
+  }
+
+  a svg{
+    &:hover{
+      color: #16a596 !important;
+    }
   }
 
   img {

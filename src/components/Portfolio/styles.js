@@ -6,11 +6,10 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding-top: 100px;
+  /* padding-top: 50px; */
+  min-height: 100vh;
 
-  @media(max-width: 414px){
-    padding-top: 80px;
-  }
+
 `;
 
 export const DivPortfolioBox = styled.div`
@@ -52,21 +51,25 @@ export const DivPortfolioCard = styled(motion.li)`
 
   span{
     margin: 10px;
+    text-align: center;
   }
 
   @media(max-width: 414px){
-    height: 180px;
-    width: 180px;
+
+    height: 140px;
+    width: 140px;
   }
 
   img{
     height: 100px;
+    @media(max-width: 414px){
+    height: 60px;
+    width: 60px;
+  }
   }
 
   &:hover{
     border: 4px solid #c3c3c3;
-    /* -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.1);
-    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.1);
-    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.1); */
+
   }
 `;

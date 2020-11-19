@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactVivus from 'react-vivus';
+import { FaArrowDown } from 'react-icons/fa'
 
 import { Container, DivLogo, RevealBlockAnimation } from './styles';
 import svg from '../../assets/logo-azul.svg';
@@ -26,7 +27,9 @@ function Main() {
           <h2>Desenvolvedor Fullstack</h2>
         </RevealBlockAnimation>
       </DivLogo>
-      <span></span>
+      <nav className="arrow-portfolio">
+        <a href="#portfolio"><FaArrowDown size={28} color="#fff" /></a>
+      </nav>
     </Container>
   );
 }

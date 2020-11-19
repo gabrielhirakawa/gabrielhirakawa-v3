@@ -4,20 +4,25 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  padding-top: 100px;
+  width: 80%;
+  min-height: 100vh;
+  /* padding-top: 50px; */
+
 `;
 
 export const Content = styled.div`
+  border: 1px solid #16A596;
+  border-radius: 4px;
+  padding: 20px;
   display: flex;
   width: 60%;
   justify-content: center;
- text-align: left;
+  text-align: left;
 
   @media(max-width: 414px){
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 100%;
     text-align: center;
   }
 `;

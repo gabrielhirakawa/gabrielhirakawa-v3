@@ -1,12 +1,21 @@
 import styled from 'styled-components';
+import bg from '../../assets/bg2.jpeg'
 
 export const Container = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 100%;
+  min-height: 100vh;
   padding-top: 100px;
-  padding-bottom: 100px;
+
+  /* @media(max-width: 414px){
+    padding: 50px;
+    min-height: auto;
+  } */
+
+  background: linear-gradient(180deg, #262527 0%, rgba(38, 37, 39, 0.96) 100%), url(${bg}) center no-repeat;
+  background-size: contain, cover;
 `;
 
 export const Content = styled.div`
