@@ -6,8 +6,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 100vh;
-  padding: 20px;
+  padding-top: 100px;
 
   @media(max-width: 414px){
     padding-top: 80px;
@@ -47,7 +46,7 @@ export const DivPortfolioCard = styled(motion.li)`
   height: 240px;
   width: 240px;
   margin: 10px;
-  background: #fff;
+  background-color: #fff;
   border-radius: 8px;
   cursor: pointer;
 
@@ -56,12 +55,12 @@ export const DivPortfolioCard = styled(motion.li)`
   }
 
   @media(max-width: 414px){
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
   }
 
   img{
-    height: 120px;
+    height: 100px;
   }
 
   &:hover{
