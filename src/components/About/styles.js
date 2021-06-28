@@ -50,6 +50,7 @@ export const Column = styled.div`
   }
 
   img{
+    border: 2px solid #fff;
     height: 250px;
     width: 250px;
   }

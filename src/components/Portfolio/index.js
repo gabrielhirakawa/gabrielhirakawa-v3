@@ -10,8 +10,8 @@ import {
 } from './styles';
 
 import imgFavoDeMelArt from '../../assets/favo.png'
-import imgLOL from '../../assets/lol.png'
-import imgGit from '../../assets/git.png'
+import imgLOL from '../../assets/bardo.png'
+import imgRifas from '../../assets/rifas.svg'
 
 function Portfolio() {
 
@@ -47,19 +47,31 @@ function Portfolio() {
           animate="visible"
         >
 
-            <DivPortfolioCard variants={item} >
-              <img src={imgFavoDeMelArt} alt="favo-de-mel" />
-              <span>Favo de Mel Artes</span>
-            </DivPortfolioCard>
+          <DivPortfolioCard variants={item}>
+            <a href="https://rifas.netlify.app/"
+            rel="noopener noreferrer"
+            target="_blank">
+              <img src={imgRifas} alt="favo-de-mel" />
+              <span>Rifas.com</span>
+            </a>
+          </DivPortfolioCard>
 
 
           <DivPortfolioCard variants={item}>
+          <a href="https://bardo.netlify.app/"
+          rel="noopener noreferrer"
+          target="_blank">
             <img src={imgLOL} alt="lol-api" />
-            <span>LOL API</span>
+            <span>Bardo.gg</span>
+          </a>
           </DivPortfolioCard>
           <DivPortfolioCard variants={item}>
-            <img src={imgGit} alt="git-repositories" />
-            <span>GIT repositories</span>
+          <a href="https://favodemel.netlify.app/"
+          rel="noopener noreferrer"
+          target="_blank">
+            <img src={imgFavoDeMelArt} alt="favo de mel" />
+            <span>Favo de mel</span>
+            </a>
           </DivPortfolioCard>
         </DivPortfolioCards>
 

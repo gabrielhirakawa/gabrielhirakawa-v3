@@ -2,19 +2,21 @@ import React from 'react';
 import { FaYoutube, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 import { Container, Content, Column, SvgList } from './styles';
-import foto from '../../assets/foto.png';
+import foto from '../../assets/foto-perfil.jpeg';
 
 function About() {
   return <Container id="sobre">
     <Content>
       <Column>
         <h2>Sobre</h2>
-        <p>23 anos, desenvolvedor e apaixonado por <strong>tecnologia</strong>.</p>
+        <p>24 anos, desenvolvedor frontend e apaixonado por <strong>tecnologia</strong>.</p>
         <h3>Stack:</h3>
         <ul>
-          <li>- Node Js</li>
-          <li>- React Js</li>
+          <li>- Node Js (Express, Nest)</li>
+          <li>- React Js (CRA, Next.js, Gatsby)</li>
           <li>- React Native</li>
+          <li>- Photoshop, Figma</li>
+          <li>- MongoDB, PostgreSQL</li>
         </ul>
       </Column>
       <Column>

@@ -49,6 +49,18 @@ export const DivPortfolioCard = styled(motion.li)`
   border-radius: 8px;
   cursor: pointer;
 
+  a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #3c3c3c;
+  }
+
+  img{
+    max-width: 200px;
+  }
+
   span{
     margin: 10px;
     text-align: center;
